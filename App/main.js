@@ -17,7 +17,7 @@ const showPost = () => {
                 </div>
                 <div class="post-author-name">
                     <a href="#">taylorswift</a>
-                    <span><i class="fas fa-circle"></i> 1w</span>
+                    <span><i class="fas fa-circle"></i> ${timeAgo(item.post_date)} </span>
                     <a href="#"></a>
                     <p> ${item.user_name} </p>
                 </div>
